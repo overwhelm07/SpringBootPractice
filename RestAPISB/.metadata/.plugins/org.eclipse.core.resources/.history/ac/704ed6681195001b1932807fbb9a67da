@@ -1,0 +1,14 @@
+package com.restPractice.restAPI;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class ApiController {
+	
+	@RequestMapping(value = "/api/test")
+	public String getApiTest() {
+		return "{\"result\":\"ok\"}";
+	}
+	
+}

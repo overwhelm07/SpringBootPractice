@@ -1,0 +1,12 @@
+package com.restPractice.restAPI;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class ApiController {
+	
+	public String getApiTest() {
+		
+	}
+	
+}
